@@ -46,7 +46,7 @@
         </nav>
         <!-- Navbar end -->
         <!-- Grid icons start-->
-        <nav aria-label="Page navigation example">
+        <!-- <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-center">
                 <li class="page-item">
                     <a class="page-link" href="#" aria-label="Previous">
@@ -60,100 +60,164 @@
                 </li>
 
             </ul>
-        </nav>
+        </nav> -->
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                    type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i
+                        class="fa-solid fa-table-cells"></i>
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                    type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i
+                        class="fa-solid fa-square-full"></i></button>
+            </li>
+        </ul>
         <!-- Grid icons end -->
         <!-- Grid images Icon 1 (left) -->
-        <div class="card-group">
-            <div class="card">
-                <img src="https://picsum.photos/id/9/5000/3269" class="card-img-top" alt="Computer">
-                <!-- <div class="card-body">
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                tabindex="0">
+
+                <div class="card-group">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/1031/300/200" class="card-img-top" alt="Building">
+                        <!-- <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div> -->
-            </div>
-            <div class="card">
-                <img src="https://picsum.photos/id/10/2500/1667" class="card-img-top" alt="Forrest">
-                <!-- <div class="card-body">
+                    </div>
+                    <div class="card col-lg-4 col-sm-12">
+                        <img src="https://picsum.photos/id/10/2500/1667" class="card-img-top" alt="Forest">
+                        <!-- <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
                     </p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div> -->
-            </div>
-            <div class="card">
-                <img src="https://picsum.photos/id/18/2500/1667" class="card-img-top" alt="Grass">
-                <!-- <div class="card-body">
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/18/2500/1667" class="card-img-top" alt="Grass">
+                        <!-- <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                         additional content. This card has even longer content than the first to show that equal height
                         action.</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div> -->
-            </div>
-        </div>
-        <div class="card-group">
-            <div class="card">
-                <img src="https://picsum.photos/id/1015/300/200" class="card-img-top" alt="Landscape">
-                <!-- <div class="card-body">
+                    </div>
+                </div>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="https://picsum.photos/id/1015/300/200" class="card-img-top" alt="Landscape">
+                        <!-- <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div> -->
-            </div>
-            <div class="card">
-                <img src="https://picsum.photos/id/237/300/200" class="card-img-top" alt="Dog">
-                <!-- <div class="card-body">
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/237/300/200" class="card-img-top" alt="Dog">
+                        <!-- <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
                     </p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div> -->
-            </div>
-            <div class="card">
-                <img src="https://picsum.photos/id/102/300/200" class="card-img-top" alt="Forest">
-                <!-- <div class="card-body">
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/102/300/200" class="card-img-top" alt="Forest">
+                        <!-- <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                         additional content. This card has even longer content than the first to show that equal height
                         action.</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div> -->
-            </div>
-        </div>
-        <div class="card-group">
-            <div class="card">
-                <img src="https://picsum.photos/id/26/4209/2769" class="card-img-top" alt="Desktop toolkit">
-                <!-- <div class="card-body">
+                    </div>
+                </div>
+                <div class="card-group">
+                    <!-- <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"tabindex="0"> -->
+                    <div class="card">
+                        <img src="https://picsum.photos/id/26/4209/2769" class="card-img-top" alt="Desktop toolkit">
+                        <!-- <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div> -->
-            </div>
-            <div class="card">
-                <img src="https://picsum.photos/id/27/3264/1836" class="card-img-top" alt="Man in the ocean">
-                <!-- <div class="card-body">
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/536/354" class="card-img-top" alt="Man in the ocean">
+                        <!-- <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
                     </p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div> -->
-            </div>
-            <div class="card">
-                <img src="https://picsum.photos/id/29/4000/2670" class="card-img-top" alt="Snowy Mountains">
-                <!-- <div class="card-body">
+                    </div>
+                    <div class="card">
+                        <img src="https://picsum.photos/id/29/4000/2670" class="card-img-top" alt="Snowy Mountains">
+                        <!-- <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                         additional content. This card has even longer content than the first to show that equal height
                         action.</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div> -->
+                    </div>
+                </div>
             </div>
+            <!-- Tab of the right; the one that does not have the 9 fotos -->
+            <div class="tab-pane fad " id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                <div class="card mb-4 m-auto" style="width: 18rem;">
+                    <div class="heading d-flex justify-content-between">
+                        <div class="mb-1">My green byke!</div>
+                        <div>08</div>
+                    </div>
+                    <img src="https://picsum.photos/id/76/4912/3264" class="card-img-top" alt="My green byke">
+                    <div class="card-body">
+                        <p class="card-text mb-0"><strong>204 Likes</strong></p>
+                        <p class="card-text mt-0">Some quick example text to build on the card title and make up the
+                            bulk of the card’scontent</p>
+                    </div>
+                </div>
+                <div class="card mb-4 m-auto" style="width: 18rem;">
+                    <div class="heading d-flex justify-content-between">
+                        <div class="mb-1">My green byke!</div>
+                        <div>08</div>
+                    </div>
+                    <img src="https://picsum.photos/id/1031/300/200" class="card-img-top" class="card-img-top"
+                        alt="Building">
+                    <div class="card-body">
+                        <p class="card-text mb-0"><strong>204 Likes</strong></p>
+                        <p class="card-text mt-0">Some quick example text to build on the card title and make up the
+                            bulk of the card’scontent</p>
+                    </div>
+                </div>
+                <div class="card mb-4 m-auto" style="width: 18rem;">
+                    <div class="heading d-flex justify-content-between">
+                        <div class="mb-1">My green byke!</div>
+                        <div>08</div>
+                    </div>
+                    <img src="https://picsum.photos/id/18/2500/1667" class="card-img-top" class="card-img-top"
+                        alt="Grass">
+                    <div class="card-body">
+                        <p class="card-text mb-0"><strong>204 Likes</strong></p>
+                        <p class="card-text mt-0">Some quick example text to build on the card title and make up the
+                            bulk of the card’scontent</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Tab of the right; the one that does not have the 9 fotos end-->
         </div>
-        <!-- Grid images Icon 1 (left) end -->
+    </div>
+    <!-- Grid images Icon 1 (left) end -->
     </div>
 
 
@@ -169,15 +233,19 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new Post</h1>
+
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <p>Caption:</p>
+                    <textarea class="form-control placeholder=Add the caption of your post here"></textarea>
+                    <i class="fa-solid fa-camera mt-3"></i>
+                    <i class="fa-solid fa-location-dot mt-3"></i>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-success">Publish</button>
                 </div>
             </div>
         </div>
